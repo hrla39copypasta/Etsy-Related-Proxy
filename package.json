@@ -1,0 +1,25 @@
+{
+  "name": "etsy-related-proxy",
+  "version": "1.0.0",
+  "description": "proxy for etsy project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinMurakami/Etsy-Related-Proxy.git"
+  },
+  "author": "Justin Murakami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustinMurakami/Etsy-Related-Proxy/issues"
+  },
+  "homepage": "https://github.com/JustinMurakami/Etsy-Related-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "morgan": "^1.10.0"
+  }
+}
